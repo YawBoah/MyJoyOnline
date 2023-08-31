@@ -3,13 +3,17 @@
     padding: 0;
 }
 
+.bg-red{
+    background: red;
+}
+
 .container{
     display: flex;
     height: auto;
 }
 
 .navbar{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 1000px;
     width: 30%;
 
@@ -28,9 +32,17 @@
 .sidebar{
     background-color: red;
     width: 100%;
-    height: 40px;
+    height: 50px;
     display: flex;
     flex-direction: column;
+}
+
+.sidebar .up a{
+    margin-left: 50px;
+    text-decoration: none;
+    word-spacing: 50px;
+    color: white;
+    font-size: 20px;
 }
 
 .content{
@@ -39,9 +51,26 @@
 
 .content-left {
     height: 1000px;
-    background-color: blue;
+    /* background-color: blue; */
     width: 60%;
     margin-top: 40px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.top{
+    display: flex;
+    /* width: 50%; */
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.top .card{
+    float: left;
+    width:30%;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
 }
 
 .content-left .card .card1{
@@ -53,11 +82,66 @@
     border-radius: 10px;
 }
 
+.content-left .card .card2{
+    float: left;
+    width:30%;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.content-left .card .card3{
+    float: left;
+    width:30%;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-bottom: 10px 10px;
+    border-bottom: 1px solid gray;
+}
+
+.content-left .bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-left .bottom .card-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-head {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+}
+
+.img-text{
+    background: #fff;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 3px solid #eee;
+}
+
+.icon-head{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 .content-right{
     background-color: aqua;
     height: 1000px;
     width: 40%;
     margin-top: 40px;
+    border: 1px solid brown;
 }
 
 
