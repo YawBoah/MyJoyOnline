@@ -260,5 +260,17 @@
     text-decoration: underline;
 }
 
+.usa{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
 
+.img-nation{
+    width:15px;
+}
 
+.flex{
+    width: 40px;
+    border: 1px solid black;
+}
