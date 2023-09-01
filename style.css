@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-.bg-red{
-    background: red;
-}
-
 .container{
     display: flex;
     height: auto;
