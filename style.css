@@ -79,7 +79,7 @@
 .content-left {
     height: auto;
     /* background-color: blue; */
-    width: 60%;
+    width: 50%;
     margin-top: 6px;
     border: 1px solid grey;
     padding: 10px;
@@ -210,9 +210,9 @@
 
 
 .content-right{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: auto;
-    width: 40%;
+    width: 50%;
     margin-top: 6px;
     border: 1px solid gray;
     border-top: 0;
@@ -220,6 +220,46 @@
 
 .img-up img{
     margin-left: 10px;
+}
+
+.top-stories{
+    width: 300px;
+    background-color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    border-radius: 5px;  
+}
+
+.top-stories h6{
+    font-weight: 300;
+    font-size: 15px;
+    color: grey;
+}
+
+.top-stories h6, h4{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.top-stories-h5{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.top-stories h6:hover{
+    text-decoration: underline;
+}
+
+.top-stories h5:hover{
+    text-decoration: underline;
 }
 
 
