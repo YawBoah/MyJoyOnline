@@ -107,11 +107,32 @@
     margin-top: 15px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.content-left .bottom:hover{
+    background-color: #eee;
+    border-radius: 20px;
 }
 
 .content-left .bottom .card-head{
     display: flex;
     justify-content: space-between;
+    font-size: 15px;
+    color: #ccc;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.content-left .bottom .c-head{
+    margin-bottom: 20px;
+}
+
+.content-left .bottom .x-head{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #ccc;
+    font-weight: 500;
 }
 
 .img-head {
@@ -127,6 +148,17 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom: 3px solid #eee;
+}
+
+.img-text h6{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #ccc;
+    font-weight: 500;
+}
+
+.img-text p{
+    text-align: center;
 }
 
 .icon-head{
