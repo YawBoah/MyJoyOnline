@@ -12,7 +12,7 @@
     /* background-color: aquamarine; */
     height: 1000px;
     width: 30%;
-
+    margin-left: 50px;
 }
 .navbar .logo{
     width: 30%;
@@ -21,8 +21,29 @@
 }
 
 .navbar ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 50px;
     list-style-type: none;
+    font-size: 25px;
+    width: auto;
+}
+
+.fa-regular, .fa-solid{
+    margin-right: 10px;
+}
+
+.list1 ul li:hover{
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+.list2{
+    margin-top: 25px;
+}
+
+.list2 ul li:hover{
+    text-decoration: underline;
 }
 
 .sidebar{
@@ -52,6 +73,7 @@
     margin-top: 40px;
     border: 1px solid black;
     padding: 10px;
+    border-top: 0;
 }
 
 .top{
@@ -170,6 +192,7 @@
     width: 40%;
     margin-top: 40px;
     border: 1px solid brown;
+    border-top: 0;
 }
 
 
