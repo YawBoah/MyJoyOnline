@@ -84,6 +84,7 @@
     border: 1px solid grey;
     padding: 10px;
     border-top: 0;
+    border-right: 0;
 }
 
 .top{
