@@ -67,7 +67,7 @@
 }
 
 .content-left {
-    height: 1000px;
+    height: auto;
     /* background-color: blue; */
     width: 60%;
     margin-top: 40px;
