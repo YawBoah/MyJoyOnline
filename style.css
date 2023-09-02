@@ -260,10 +260,11 @@
     text-decoration: underline;
 }
 
-.usa{
+.usa, .nig, .can, .uk, .chi{
     display: flex;
     justify-content: space-between;
     background-color: #fff;
+    margin: auto 9px;
 }
 
 .img-nation{
@@ -271,6 +272,17 @@
 }
 
 .flex{
-    width: 40px;
+    width: 70px;
     border: 1px solid black;
+    font-size: 15px;
+}
+
+.gh, .sa, .euro, .jap{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 9px;
+}
+
+.date{
+    padding-left: 50%;
 }
