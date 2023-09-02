@@ -286,3 +286,49 @@
 .date{
     padding-left: 50%;
 }
+
+.top-stories-icons{
+    width: 300px;
+    background-color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px dashed grey;
+}
+
+.top-stories-XX{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.youtube{
+    color: red;
+}
+
+.facebook{
+    color:royalblue;
+}
+
+.twitter{
+    color:dodgerblue;
+}
+
+.instagram{
+    color: crimson;
+}
+
+.linkedin{
+    color: royalblue;
+}
+
+
