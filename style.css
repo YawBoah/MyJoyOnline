@@ -9,7 +9,7 @@
 }
 
 .navbar{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 1000px;
     width: 30%;
     margin-left: 70px;
@@ -78,7 +78,7 @@
 
 .content-left {
     height: auto;
-    background-color: blue;
+    /* background-color: blue; */
     width: 50%;
     margin-top: 6px;
     border: 1px solid grey;
@@ -96,7 +96,7 @@
 .top .card{
     float: left;
     width:30%;
-    height: 200px;
+    height: 100px;
     margin-left: 15px;
     margin-top: 15px;
     border-radius: 10px;
@@ -210,7 +210,7 @@
 
 
 .content-right{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: auto;
     width: 50%;
     margin-top: 6px;
