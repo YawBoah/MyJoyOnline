@@ -9,10 +9,10 @@
 }
 
 .navbar{
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     height: 1000px;
     width: 30%;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .navbar .logo{
     width: 30%;
@@ -78,7 +78,7 @@
 
 .content-left {
     height: auto;
-    /* background-color: blue; */
+    background-color: blue;
     width: 50%;
     margin-top: 6px;
     border: 1px solid grey;
@@ -210,7 +210,7 @@
 
 
 .content-right{
-    /* background-color: aqua; */
+    background-color: aqua;
     height: auto;
     width: 50%;
     margin-top: 6px;
@@ -342,3 +342,24 @@
     margin-right: 20px;
 }
 
+.footer{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.next{
+    margin-top: 10px;
+}
+
+.footer img{
+    margin-top: 15px;
+}
