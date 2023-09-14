@@ -39,8 +39,8 @@ This project is open-source and available under the MIT License.
 
 ## Acknowledgments
 
-This project was created as part of a web development course under the guidance of [Tutor's Name]. Special thanks to [Tutor's Name] for providing this project.
+This project was created as part of a web development course under the guidance of Yasir Sani. Special thanks to Yasir Sani for providing this project.
 
 ---
 
-Replace `yourusername` and `Your Name` with your actual GitHub username and name. Additionally, replace the live demo link and customize the README as needed.
+
