@@ -1,5 +1,3 @@
-
-
 # MyJoyOnline HTML & CSS Page
 
 This project is a simple HTML and CSS implementation of a webpage inspired by MyJoyOnline. MyJoyOnline is a well-known news website in Ghana, providing the latest news, politics, business, and more.
