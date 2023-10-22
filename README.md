@@ -4,7 +4,7 @@ This project is a simple HTML and CSS implementation of a webpage inspired by My
 
 ## Preview
 
-To see what the page looks like, you can check out the live demo [here](#).
+To see what the page looks like, you can check out the live demo [here](https://yawboah.github.io/MyJoyOnline/).
 
 ## Features
 
