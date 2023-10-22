@@ -365,79 +365,53 @@
     margin-top: 15px;
 }
 
+
+/* Media Query for screens with a maximum width of 480px */
 @media screen and (max-width: 480px) {
     .container {
-        display: block; /* Change to block display for stacking elements */
+        flex-direction: column;
     }
 
     .navbar {
-        width: 100%;
-        margin: 0; /* Reset margin to stack elements properly */
+        width: 100%; /* Adjust the width to 100% to make it full-width */
+        margin: 0; /* Remove the left margin */
     }
 
     .navbar .logo {
-        margin-left: 0;
-        margin-top: 10px;
+        margin: 10px 0; /* Adjust the margin to create space */
     }
 
     .navbar ul li {
-        margin: 0;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 0;
+        margin: 15px 0; /* Adjust the margin to create space */
     }
 
-    .content-left .card .card1,
-    .content-left .card .card2,
-    .content-left .card .card3 {
-        width: 100%; /* Take full width for stacking cards */
-        margin-left: 0;
-        margin-top: 15px;
+    .sidebar {
+        flex-direction: column; /* Display the sidebar items in a column */
     }
 
     .sidebar .up a {
-        margin-left: 0;
-        word-spacing: 0;
+        margin: 10px 0; /* Adjust the margin to create space */
+        word-spacing: 0; /* Remove word spacing */
     }
 
-    .top .card {
-        float: none;
-        width: 100%; /* Take full width for stacking cards */
-        margin-left: 0;
-        margin-top: 15px;
+    .content {
+        flex-direction: column; /* Display the content in a column */
     }
 
-    .top-stories {
-        width: 100%; /* Take full width for stacking stories */
-        margin: 0;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 0;
+    .content-left,
+    .content-right {
+        width: 100%; /* Make both content sections full-width */
     }
 
-    .top-stories h5,
-    .top-stories h6 {
-        padding-left: 0;
-        padding-right: 0;
+    .top .card,
+    .content-left .card .card1,
+    .content-left .card .card2,
+    .content-left .card .card3 {
+        width: 100%; /* Make the cards full-width */
+        margin: 10px 0; /* Adjust the margin to create space */
     }
 
-    .usa, .nig, .can, .uk, .chi, .gh, .sa, .euro, .jap {
-        display: block; /* Change to block display for stacking elements */
-        margin: 0 auto;
-    }
-
-    .top-stories-icons {
-        width: 100%; /* Take full width for stacking icons */
-        margin: 0;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 0;
-    }
-
-    .top-stories-XX,
-    .top-stories-XXI {
-        gap: 0;
-        margin-left: 0;
-        margin-right: 0;
+    .footer {
+        margin-left: 0; /* Remove the left margin */
     }
 }
