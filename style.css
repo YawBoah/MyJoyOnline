@@ -364,3 +364,45 @@
 .footer img{
     margin-top: 15px;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .navbar {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+    }
+
+    .content-left,
+    .content-right {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .top .card,
+    .content-left .card .card1,
+    .content-left .card .card2,
+    .content-left .card .card3 {
+        width: 100%;
+    }
+
+    .img-up img {
+        margin-left: 0;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .footer {
+        margin-left: 0;
+    }
+
+    .next {
+        margin-top: 10px;
+    }
+}
+
