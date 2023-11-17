@@ -3,13 +3,10 @@
 This project is a simple HTML and CSS implementation of a webpage inspired by MyJoyOnline. MyJoyOnline is a well-known news website in Ghana, providing the latest news, politics, business, and more.
 
 ## Preview
-
 To see what the page looks like, you can check out the live demo [here](https://yawboah.github.io/MyJoyOnline/).
-
 ![image](https://github.com/YawBoah/MyJoyOnline/assets/126890146/12034219-3f7a-4eb2-922a-4cd914960b14)
 
 ## Features
-
 - **HTML Structure**: The project follows a structured HTML layout to organize content effectively.
 
 - **CSS Styling**: CSS styles have been applied to replicate the visual appearance of MyJoyOnline.
