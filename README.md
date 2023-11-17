@@ -22,16 +22,13 @@ To see what the page looks like, you can check out the live demo [here](https://
 Feel free to customize this template to your liking. You can change the colors, fonts, and content to match your preferences or use it as a foundation for a real-world project.
 
 ## Author
-
 - **MASTERYob**
 - GitHub: [Your GitHub Profile](https://github.com/YawBoah)
 
 ## License
-
 This project is open-source and available under the MIT License.
 
 ## Acknowledgments
-
 This project was created as part of a web development course under the guidance of Yasir Sani. Special thanks to Yasir Sani for providing this project.
 
 ---
