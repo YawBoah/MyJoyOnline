@@ -1,4 +1,7 @@
 # MyJoyOnline Webpage Replica 🌐📰
+![GitHub repo size](https://img.shields.io/github/repo-size/YawBoah/MyJoyOnline)
+![GitHub issues](https://img.shields.io/github/issues/YawBoah/MyJoyOnline)
+![GitHub stars](https://img.shields.io/github/stars/YawBoah/MyJoyOnline)
 
 Welcome to the MyJoyOnline-inspired webpage project! 🚀 This simple HTML and CSS implementation mirrors the style of MyJoyOnline, a prominent news website in Ghana covering the latest news, politics, business, and more.
 
