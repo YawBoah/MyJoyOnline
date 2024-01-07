@@ -1,4 +1,5 @@
 # MyJoyOnline Webpage Replica 🌐📰
+
 Welcome to the MyJoyOnline-inspired webpage project! 🚀 This simple HTML and CSS implementation mirrors the style of MyJoyOnline, a prominent news website in Ghana covering the latest news, politics, business, and more.
 
 ## Preview 🖼️
